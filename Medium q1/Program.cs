@@ -45,6 +45,7 @@ namespace Medium_q1
                     {
                         Data.DisplayData();
                         break;
+                        
                     }
                         
                     else

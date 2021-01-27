@@ -22,14 +22,14 @@ namespace Medium_q1
             this.age = age;
             this.name = name;
             this.salary = salary;
-            Console.WriteLine("\nAdding to Dictionary............\n\n");
+            Console.WriteLine("\nAdding to Dictionary............");
             AddToDictionary(id, age, name, salary);
             
     
         }
         public void AddToDictionary(int a,int b,string c,double d)
         {
-            Console.WriteLine("\n\nChecking for duplicate keys /..................................\n\n");
+            Console.WriteLine("\nChecking for duplicate keys................\n\n");
             if (!Data.Employees.ContainsKey(a))
                 Data.Employees.Add(a, new Employee(a, b, c, d));
             else

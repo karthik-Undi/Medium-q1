@@ -12,7 +12,7 @@ namespace Medium_q1
 
         public static void DisplayData()
         {
-            Console.WriteLine("Please enter the employee ID");
+            Console.WriteLine("----------Please enter the employee ID----------");
             int key = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(Employees[key]);
         }
